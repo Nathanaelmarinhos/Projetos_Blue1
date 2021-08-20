@@ -1,0 +1,11 @@
+const pense = +prompt('Pense em um número aleatório e deixe-me adivinhar');
+
+const numeroAleatorio = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
+console.log(numeroAleatorio);
+
+if (pense == numeroAleatorio){
+  console.log('Você ganhou')
+} else {
+  console.log('Você perdeu')
+}
+console.log('O número é: ' + numeroAleatorio);
