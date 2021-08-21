@@ -10,8 +10,6 @@ salários de R$ 1500,00 em diante : aumento de 5%
 let salario = +prompt('Qual o seu salário?');
 salario = eval (salario);
 // estrutura de controle abaixo informa se o funcionário receberá aumento ou não
-let salAnt, percen, aumento, novoSalario
-// falta ainda inserir as variaveis acima
 if (salario <= 280){
 console.log("Você recebeu um aumento de 20%. Seu novo salário é: ");
  } // else if = senão se
